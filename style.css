@@ -1,0 +1,61 @@
+a:hover {
+    color: green;
+}
+h1 {
+    text-align: left;
+    font-size: 40px;
+    font-family: algerian;
+    font-weight: bold;
+    color: white;
+    background-image: url(background.png);
+    border-bottom: 1px;
+    padding:10px;
+    display: block;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    font-family: sans-serif;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: auto;
+    border-color: rgb(46, 172, 177);
+}
+h3 {
+    font-weight: bold;
+    font-size: 33px;
+    border-style:inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: auto;
+}
+h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+h5 {
+    font-weight: bold;
+    font-size: 27px;
+}
+h6 {
+    font-weight: bold;
+    font-size: 24px;
+}
+p {
+    font-size: 20px;
+    font-family: Gill Sans MT;
+}
+li {
+    color: rgb(83, 79, 79);
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    .nav-links a {
+    padding: 10px;
+    font-size: 14px;
+    }
+}
